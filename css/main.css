@@ -226,7 +226,7 @@ body.nonscroll {
 }
 
 .promo {
-  background: url("/img/logo-promo.png") no-repeat fixed center/cover;
+  background: url("/img/logo-promo.png") center center/cover no-repeat;
   height: 100vh;
   padding-top: 12rem;
   width: 100%;
@@ -1395,11 +1395,8 @@ thead {
 
   .promo {
     height: 100vh;
-    background-image: url("/img/logo-promo-mobile.png");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url("/img/logo-promo-mobile.png")center center/cover no-repeat;
+
   }
 
   .services .services__slider-title h2 {
